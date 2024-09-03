@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #20232a;
+  color: #ffffff; /* Text color set to white */
+  font-family: Arial, sans-serif;
+}
+
+/* Container for the game elements */
+#container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Game Title Styles */
+#game-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #ffffff; /* Title color set to white */
+}
+
+/* Scoreboard Styles */
+#scoreboard {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff; /* Scoreboard color set to white */
+}
+
+/* Game Board Styles */
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(10, 30px); /* Adjust size for grid cells */
+  gap: 1px;
+  background-color: #000000; /* Background color remains black for contrast */
+  border: 2px solid #ffffff; /* White border around the game board */
+  margin: 0 auto;
+}
+
+/* Individual Cell Styles */
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff; /* Default cell color set to white */
+}
+
+/* Uniform Tetromino Color in Bright Blue */
+.color-1, .color-2, .color-3, .color-4, .color-5, .color-6, .color-7 {
+  background-color: #0052FF; /* Bright Blue for all Tetrominoes */
+}
